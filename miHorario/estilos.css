@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+    
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+td.horasC{
+    background-color:lightgray;
+    color: white;
+}
+
+td:empty{
+    background-color: rgb(67, 167, 54);
+}
+
+
+th{
+    background-color: rgb(38, 165, 188);
+    color: white
+}
+
+td.pMat {
+    background-color:lightblue;
+    color: white;
+}
